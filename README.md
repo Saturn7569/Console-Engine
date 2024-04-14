@@ -10,7 +10,7 @@ Next create a C# console project by typing this in the terminal:
 dotnet new console
 ```
 Now create a folder named `lib`. This folder is for the custom libraries you will use.
-Go to go to the download list in this depository and download the latest version of Console Engine.
+Go to go to the [download list](https://github.com/Saturn7569/Console-Engine/tree/main/download) in this depository and download the latest version of Console Engine.
 Extract the `.zip` file and move the folder named `ConsoleEngine` into the `lib` folder.
 In the `ConsoleEngine` folder is a file named `ConsoleEngine.cs` so your directory should look something like this:
 ```
@@ -51,4 +51,4 @@ Now paste this in:
     ]
 }
 ```
-Now open the `Program.cs` file and you can start coding.
+Now open the `Program.cs` file and you can start coding. Using the [documentation](https://github.com/Saturn7569/Console-Engine/blob/main/download/documentation.md)
