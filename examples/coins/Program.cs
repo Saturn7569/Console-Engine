@@ -2,6 +2,8 @@
 // to see how this works go to:
 // a coin minigame
 
+using System;
+
 using ConsoleEngine;
 using ConsoleEngine.EntityManagement;
 
@@ -12,7 +14,7 @@ namespace Main {
 
             int score = 0;
 
-            screen.InitWindow("Game");
+            screen.InitWindow("Coins");
 
             Entity player = new(2,2,'&');
             Entity coin = new(GetRandomVal(0, screen.WIDTH-1), GetRandomVal(0, screen.HEIGHT), '§');
