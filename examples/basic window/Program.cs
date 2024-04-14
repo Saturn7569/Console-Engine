@@ -5,7 +5,6 @@
 using System;
 
 using ConsoleEngine;
-using ConsoleEngine.EntityManagement;
 
 namespace Main {
     public class Program {
